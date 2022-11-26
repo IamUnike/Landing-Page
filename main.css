@@ -1,0 +1,200 @@
+/* ----- GENERAL STYLING -------*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:roboto;
+}
+
+
+button{
+	border-radius:3px;
+	border:none;
+	outline:none;	
+	color:#F9FAF8;
+	font-weight:bold;
+	padding:5px 10px;
+}
+
+
+/*--------- HEADER ---------------*/
+.header{
+	display:flex;
+	justify-content:space-around;
+	background-color:transparent;
+	align-items:center;
+	background-color: #1F2937;
+}
+
+.logo{
+	font-size:24px;
+	color:#F9FAF8;
+}
+
+.nav{
+	list-style:none;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	gap:10px;
+	padding:10px;
+}
+
+a{
+	text-decoration:none;
+	color:#F9FAF8;
+	padding:3px 5px;
+}
+
+a:hover{
+	background-color:#F9FAF8;
+	color:#1F2937;
+}
+
+
+/*----------- MAIN ---------------*/
+.main{
+	width:100%;
+	height:500px;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	background-color:#1F2937;
+	color:#F9FAF8;
+}
+
+.main div{
+	min-height:250px;
+	width:400px;
+}
+
+/*------ MAIN > main-text-----*/
+.main-text{
+	padding:0 15px;
+	background-color:none;
+}
+
+.main-text h2{
+	font-size:48px;
+	font-weight:extra-bold;
+	margin:10px 0 0;
+}
+
+.main-text p{
+	font-size:18px;
+	color:#E5E7EB;
+	margin:10px 0 0;
+}
+
+.main-text button{
+	background-color:#3882F6;
+	margin:15px 0 0;
+}
+
+
+/*------ MAIN > main-img-------*/
+.main-img{
+	background-color:gray;
+}
+
+
+/*-------- INFO SECTION -------------*/
+.info-section {
+	text-align:center;	
+	height:400px auto;
+}
+
+.info-section h3{
+	font-size:36px;	
+	color:#1F2937;
+	margin:40px auto 0;
+	
+}
+
+.card-container {
+	margin:40px auto;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+	gap:20px
+}
+
+.card{
+	height:250px auto;
+	width:20%;
+}
+
+.card .img{
+	height:150px;
+	border: 2px solid #3882F6;
+	border-radius:5px;
+}
+
+.card .description {
+	text-align:center;
+	padding:10px;
+}
+
+
+/*-------- QUOTE SECTION -------------*/
+.quote-section {
+	text-align:center;	
+	height:350px;
+	background-color:#E5E7EB;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.quote{
+	font-style:italic;
+	font-size:36px;
+	font-weight:lighter;
+	color:#1F2937;
+	width:80%;
+}
+
+.author{
+	font-weight:bold;
+	text-align:right;
+	font-size:18px;
+	font-style:normal;
+}
+
+
+/*-------- CTA SECTION -------------*/
+
+.cta-section{
+	height:250px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.cta-container {
+	background-color:#3882F6;
+	color:#F9FAF8;
+	border-radius:5px;
+	width:80%;
+	display: flex;
+	justify-content:space-around;	
+	align-items:center;
+	padding:20px 0;
+}
+
+.cta-btn{
+	background-color:transparent;
+	border:2px solid #F9FAF8;
+}
+
+
+/*-------- FOOTER SECTION -------------*/
+.footer {
+	background-color:#1F2937;
+	color:#F9FAF8;
+	text-align:center;
+	padding:20px 0;
+}
